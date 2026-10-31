@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        /* Pengaturan latar belakang halaman luar */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7e1e6; /* Warna latar belakang merah muda/pink lembut sesuai gambar */
+            box-sizing: border-box;
+        }
+
+        /* Container utama pembungkus halaman web */
+        .wrapper {
+            max-width: 950px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Bagian Header / Kepala Web */
+        header {
+            background-color: #b0e0e6; /* Warna biru muda (powder blue) */
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: bold;
+            color: #000000;
+            letter-spacing: 0.5px;
+        }
+
+        /* Bagian Navigasi */
+        nav {
+            background-color: #f1f1f1;
+            padding: 10px 20px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        nav a {
+            color: blue;
+            text-decoration: underline;
+            margin-right: 15px;
+            font-size: 13px;
+        }
+
+        /* Pembungkus Konten Utama (Sidebar & Konten Kanan) */
+        .container {
+            display: flex;
+            min-height: 450px;
+        }
+
+        /* Bagian Sidebar Kiri */
+        aside {
+            width: 30%;
+            background-color: #f2f2f2; /* Warna abu-abu sangat muda */
+            padding: 20px;
+            border-right: 1px solid #dddddd;
+            box-sizing: border-box;
+        }
+
+        aside h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        aside p {
+            font-size: 13px;
+            color: #333333;
+            margin: 0;
+        }
+
+        /* Bagian Konten Kanan */
+        main {
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: hsl(324, 92%, 81%);
+        }
+
+        main > h2 {
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #000000;
+        }
+
+        /* Kotak Artikel (Card / Box di dalam main) */
+        .article-box {
+            border: 1px solid hsl(318, 97%, 71%);
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #ffffff;
+        }
+
+        .article-box h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .article-box p {
+            font-size: 13px;
+            color: #333333;
+            margin: 0;
+        }
+
+        /* Bagian Footer / Kaki Web */
+        footer {
+            background-color: #b0e0e6; /* Warna biru muda serasi dengan header */
+            text-align: center;
+            padding: 12px;
+            font-size: 11px;
+            color: #000000;
+            border-top: 1px solid #3381ef;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Header Semantic -->
+        <header>
+            <h1>SELAMAT DATANG DI WEBKU</h1>
+        </header>
+
+        <!-- Navigasi Semantic -->
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">PROFIL</a>
+            <a href="#">CONTACT</a>
+        </nav>
+
+        <!-- Layout Konten (Sidebar dan Main Content) -->
+        <div class="container">
+            <!-- Sidebar / Aside Semantic -->
+            <aside>
+                <h3>Informasi Tambahan</h3>
+                <p>ini adalah bagian sidebar.</p>
+            </aside>
+
+            <!-- Main Content Semantic -->
+            <main>
+                <h2>Konten Utama</h2>
+                
+                <div class="article-box">
+                    <h3>Artikel Pertama</h3>
+                    <p>Ini adalah isi artikel pertama.</p>
+                </div>
+
+                <div class="article-box">
+                    <h3>Artikel Kedua</h3>
+                    <p>Ini adalah isi artikel kedua.</p>
+                </div>
+            </main>
+        </div>
+
+        <!-- Footer Semantic -->
+        <footer>
+            Copyright © 2021 Web Programming UNIPMA
+        </footer>
+    </div>
+
+</body>
+</html>
