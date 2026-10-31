@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic</title>
+    <style>
+        /* Tetapan latar belakang seluruh halaman luar */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f8f5; /* Warna latar belakang hijau/kuning zaitun lembut */
+            box-sizing: border-box;
+        }
+
+        /* Container utama susun atur web */
+        .main-container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            border: 2px solid #ffffff;
+            box-shadow: 0 0 10px #f9ecec1a;
+        }
+
+        /* Bahagian Header */
+        header {
+            background-color: lab(95.82% 3.02 1.06); /* Warna kelabu sederhana */
+            color: #000000;
+            text-align: center;
+            padding: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Pembungkus bahagian tengah (Sidebar + Konten) */
+        .content-wrapper {
+            display: flex;
+            min-height: 400px;
+            background-color: #ffffff;
+        }
+
+        /* Bahagian Sidebar (Kiri) */
+        nav {
+            width: 25%;
+            background-color: #c2b7b5; /* Warna kelabu kemerahan/merah jambu pudar */
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 2px solid #ffffff;
+        }
+
+        nav ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 5px;
+        }
+
+        nav ul li a {
+            color: hsl(60, 1%, 14%);
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        /* Bahagian Konten Utama (Kanan) */
+        article {
+            width: 75%;
+            background-color: hsl(176, 96%, 50%); /* Warna kelabu konten */
+            padding: 30px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        article h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: hwb(120 9% 91%);
+        }
+
+        article p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #000000;
+        }
+
+        /* Bahagian Footer */
+        footer {
+            background-color: hsl(194, 96%, 71%); /* Warna kelabu gelap */
+            color: #000000;
+            text-align: center;
+            padding: 8px;
+            font-size: 11px;
+            border-top: 2px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Tag Semantik: Header -->
+        <header>
+            <h1>HTML5 Semantic</h1>
+        </header>
+
+        <!-- Pembungkus Navigasi & Konten -->
+        <div class="content-wrapper">
+            <!-- Tag Semantik: Navigasi (Sidebar Kiri) -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pengertian</a></li>
+                    <li><a href="#">Kesimpulan</a></li>
+                </ul>
+            </nav>
+
+            <!-- Tag Semantik: Article (Konten Utama Kanan) -->
+            <article>
+                <h2>Konten</h2>
+                <p>Pengertian HTML5 Semantic</p>
+                <p>Kesimpulan</p>
+            </article>
+        </div>
+
+        <!-- Tag Semantik: Footer -->
+        <footer>
+            Copyright © 2026
+        </footer>
+    </div>
+
+</body>
+</html>
