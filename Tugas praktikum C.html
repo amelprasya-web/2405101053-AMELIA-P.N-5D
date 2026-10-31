@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran Klinik Sehat</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran Pasien Klinik Sehat</h2>
+    <form action="proses_klinik.php" method="post">
+        Nama Pasien: <input type="text" name="nama_pasien" placeholder=" " />
+        <br /><br />
+        Nomor Identitas (NIK/KTP): <input type="text" name="nik" />
+        <br /><br />
+        Password Akun Pasien: <input type="password" name=" " />
+        <br /><br />
+        Jenis Kelamin:
+        <input type="radio" name="jenis_kelamin" value="Laki-laki" checked /> Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan
+        <br /><br />
+        Pilihlah Poli Tujuan:
+        <select name="poli_tujuan">
+            <option value="Poli Umum" selected>Poli Umum</option>
+            <option value="Poli Gigi">Poli Gigi</option>
+            <option value="Poli Anak">Poli Anak</option>
+            <option value="Poli Kandungan">Poli Kandungan</option>
+        </select>
+        <br /><br />
+        Layanan Tambahan:
+        <input type="checkbox" name="bpjs" /> Menggunakan BPJS
+        <input type="checkbox" name="konsultasi_online" /> Konsultasi Online
+        <br /><br />
+        Keluhan Penyakit:
+        <br />
+        <textarea name="keluhan" rows="4" cols="30">Jelaskan gejala atau keluhan Anda...</textarea>
+        <br /><br />
+        <input type="submit" value="Kirim Pendaftaran" />
+    </form>
+</body>
+</html>
