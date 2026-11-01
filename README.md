@@ -1,7 +1,7 @@
 Identitas Mahasiswa
 Nama: Amelia PrasytiaNingsih
 NIM: 2405101053
-Kelas: 4D
+Kelas: 5D
 Program Studi: Teknik Informatika
 Mata Kuliah: Pemrograman Web Dasar
 Tahun Akademik: 2026/2027
