@@ -1,6 +1,6 @@
 Identitas Mahasiswa
-Nama: Adewidya Rafi Nandana
-NIM: 2405101057
+Nama: Amelia prasytiaNingsih
+NIM: 2405101053
 Kelas: 4D
 Program Studi: Teknik Informatika
 Mata Kuliah: Pemrograman Web Dasar
