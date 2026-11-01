@@ -1,5 +1,5 @@
 Identitas Mahasiswa
-Nama: Amelia prasytiaNingsih
+Nama: Amelia PrasytiaNingsih
 NIM: 2405101053
 Kelas: 4D
 Program Studi: Teknik Informatika
